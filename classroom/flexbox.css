@@ -9,7 +9,9 @@ div{
 }
 #container{
   width: 800px;
-  height: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 #box1{
   background-color: lightblue;
