@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flazge Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <a class="brand" href="#hero">Flazge</a>
+        <nav class="nav-links">
+          <a class="active" href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="cta-group">
+          <a class="secondary-btn" href="#work">Projects</a>
+          <button class="menu-toggle" aria-label="Toggle navigation">
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <small>Senior UX-focused Frontend</small>
+            <h1>Fast, clean interfaces with motion-led polish.</h1>
+            <p>
+              I build responsive portfolio experiences with high-performance CSS, sleek animations, and JavaScript that feels effortless across devices.
+            </p>
+            <div class="hero-actions">
+              <a class="cta-btn" href="#contact">Let’s build</a>
+              <a class="secondary-btn" href="#work">View case studies</a>
+            </div>
+            <div class="hero-meta">
+              <span>
+                <strong>8+</strong>
+                <small>years building digital products</small>
+              </span>
+              <span>
+                <strong>40+</strong>
+                <small>industry-level UI components</small>
+              </span>
+            </div>
+          </div>
+
+          <div class="avatar-card">
+            <div class="card" style="padding: 2rem;">
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem;">
+                <span style="width:0.8rem;height:0.8rem;border-radius:50%;background:#ff5f56;"></span>
+                <span style="width:0.8rem;height:0.8rem;border-radius:50%;background:#ffbd2e;"></span>
+                <span style="width:0.8rem;height:0.8rem;border-radius:50%;background:#27c93f;"></span>
+              </div>
+              <div style="padding:1.5rem;background:rgba(11,15,36,0.92);border-radius:2rem;">
+                <p style="font-size:0.9rem;color:#82aaff;margin:0 0 1rem;letter-spacing:0.04em;text-transform:uppercase;">Performance-first code</p>
+                <pre style="margin:0;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;font-size:0.95rem;line-height:1.65;color:#dbe3ff;overflow-x:auto;">
+<span style="color:#7c5cff;">const</span> hero = {
+  name: 'Flazge',
+  expertise: 'UI, motion, rapid prototypes',
+  tools: ['HTML', 'CSS', 'JavaScript', 'React']
+};
+
+function buildInterface() {
+  hero.templates.forEach(component =&gt; render(component));
+}
+                </pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container fade-in">
+        <div class="section-title">
+          <small>About me</small>
+          <h2>Design systems built for polish and speed.</h2>
+        </div>
+        <div class="grid-2">
+          <div class="card">
+            <strong>Modern product engineering</strong>
+            <p>
+              I specialize in full-stack design implementation, converting UX strategy into frictionless interfaces that feel premium without bloated dependencies.
+            </p>
+          </div>
+          <div class="card">
+            <strong>What I bring</strong>
+            <p>
+              Fast-rendering layouts, strategic animation, responsive behavior, and straightforward JS that supports real interactions, not just flashy effects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section container fade-in">
+        <div class="section-title">
+          <small>Capabilities</small>
+          <h2>Technical strengths and workflow.</h2>
+        </div>
+        <div class="grid-3">
+          <div class="card">
+            <strong>UI & animation</strong>
+            <p>Microinteraction design, transitions, glassmorphism, dark/light layering, accessible typography, and component polish.</p>
+          </div>
+          <div class="card">
+            <strong>Responsive systems</strong>
+            <p>Adaptive layouts, fluid scaling, mobile-first states, breakpoints that feel seamless, and keyboard-friendly navigation.</p>
+          </div>
+          <div class="card">
+            <strong>JavaScript flow</strong>
+            <p>Minimal vanilla JS for scroll state, forms, responsive menus, and performance-minded UX with no heavy frameworks unless needed.</p>
+          </div>
+        </div>
+        <div class="grid-2" style="margin-top:2rem;">
+          <div class="card progress-row">
+            <div class="progress">
+              <span><strong>CSS Animation</strong><strong>95%</strong></span>
+              <div class="bar"><div class="bar-fill" data-value="95%"></div></div>
+            </div>
+            <div class="progress">
+              <span><strong>Responsive layouts</strong><strong>92%</strong></span>
+              <div class="bar"><div class="bar-fill" data-value="92%"></div></div>
+            </div>
+          </div>
+          <div class="card progress-row">
+            <div class="progress">
+              <span><strong>JavaScript UI</strong><strong>88%</strong></span>
+              <div class="bar"><div class="bar-fill" data-value="88%"></div></div>
+            </div>
+            <div class="progress">
+              <span><strong>Production-ready UX</strong><strong>90%</strong></span>
+              <div class="bar"><div class="bar-fill" data-value="90%"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section container fade-in">
+        <div class="section-title">
+          <small>Projects</small>
+          <h2>Case studies with crisp execution.</h2>
+        </div>
+        <div class="projects">
+          <article class="project-card">
+            <div>
+              <h3>Launch-ready dashboard</h3>
+              <p>Design system for a fintech product with modular cards, reusable chart patterns, and dark mode transitions optimized for performance.</p>
+            </div>
+            <div class="tag-list">
+              <span class="tag">CSS</span>
+              <span class="tag">JS</span>
+              <span class="tag">Responsive</span>
+            </div>
+            <div class="project-footer">
+              <span>2025</span>
+              <a class="project-link" href="#contact">Discuss this</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div>
+              <h3>Interactive landing page</h3>
+              <p>Fast-loading site architecture with animated hero, utility-first spacing, and progressive reveal for modern product storytelling.</p>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Animation</span>
+              <span class="tag">UX</span>
+              <span class="tag">Performance</span>
+            </div>
+            <div class="project-footer">
+              <span>2024</span>
+              <a class="project-link" href="#contact">Request case study</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div>
+              <h3>Portfolio overhaul</h3>
+              <p>High-polish personal brand site with consistent motion, layered depth, and a modular component library for future expansion.</p>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Design</span>
+              <span class="tag">HTML</span>
+              <span class="tag">Modern</span>
+            </div>
+            <div class="project-footer">
+              <span>2024</span>
+              <a class="project-link" href="#contact">Start a project</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container fade-in">
+        <div class="section-title">
+          <small>Performance</small>
+          <h2>Speed and execution matter.</h2>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <strong>0.7s</strong>
+            <small>Time to interactive</small>
+          </div>
+          <div class="stat">
+            <strong>98%</strong>
+            <small>Accessibility ﬁrst</small>
+          </div>
+          <div class="stat">
+            <strong>7ms</strong>
+            <small>JS execution budget</small>
+          </div>
+          <div class="stat">
+            <strong>100%</strong>
+            <small>CSS-only animations</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container fade-in">
+        <div class="section-title">
+          <small>Contact</small>
+          <h2>Let's ship your next interface.</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-panel">
+            <h3>Ready to collaborate?</h3>
+            <p>
+              I deliver lean, maintainable frontend experiences with a premium visual system. Reach out to discuss design systems, product UI, or a custom portfolio launch.
+            </p>
+            <div class="contact-item">
+              <strong>Email</strong>
+              <small>hello@flazge.dev</small>
+            </div>
+            <div class="contact-item">
+              <strong>Location</strong>
+              <small>Remote / Global</small>
+            </div>
+            <div class="contact-item">
+              <strong>Availability</strong>
+              <small>Open for freelance and team contracts</small>
+            </div>
+          </div>
+          <form id="contact-form" class="contact-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your full name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Project brief
+              <textarea name="message" placeholder="Tell me about your project" required></textarea>
+            </label>
+            <div class="form-actions">
+              <button class="cta-btn" type="submit">Send message</button>
+              <p class="form-note">I respond within one business day.</p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Designed for speed, polished in CSS, powered by minimal JavaScript.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
+  

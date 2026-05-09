@@ -1,0 +1,23 @@
+div{
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border: 2px, solid black;
+  display: inline-block;
+}
+#box1{
+  color: white;
+  background-image: url(OIP.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#box2{
+  background-color: yellow;
+}
+#box3{
+  background-color: blue;
+}
+#box4{
+  background-color: red;
+
+}

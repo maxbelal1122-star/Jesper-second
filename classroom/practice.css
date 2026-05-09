@@ -1,0 +1,10 @@
+div{
+  height: 100px;
+  width: 100px;
+  color: skyblue;
+background-image: url(yourname.png);
+background-size: contain;
+background-repeat: no-repeat;
+position: fixed;
+right: 0;
+}
