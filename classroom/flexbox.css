@@ -2,25 +2,30 @@ body{
   text-align: center;
 }
 div{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   display: inline-block;
   border: 2px solid black;
 }
 #container{
-  width: 800px;
-  height: 400px;
+  width: 600px;
+  height: 300px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  align-items: flex-start;
 }
 #box1{
   background-color: lightblue;
 }
 #box2{
   background-color: lightgreen;
+  height: 200px;
 }
 #box3{
   background-color: lightpink;
+  height: 75px;
 } 
 #box4{
   background-color: lightyellow;
