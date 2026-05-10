@@ -2,34 +2,51 @@ body{
   text-align: center;
 }
 div{
-  width: 150px;
+  width: 20%;
   height: 150px;
   display: inline-block;
   border: 2px solid black;
+  box-sizing: border-box ;
 }
 #container{
   width: 600px;
   height: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
   /* flex-wrap: wrap; */
-  align-items: flex-start;
+  
 }
 #box1{
   background-color: lightblue;
 }
 #box2{
   background-color: lightgreen;
-  height: 200px;
 }
 #box3{
   background-color: lightpink;
-  height: 75px;
+  
 } 
 #box4{
   background-color: lightyellow;
 }
 #box5{
   background-color: lightgray;
+}
+#box6{
+  background-color: lightcoral;
+}
+#box7{
+  background-color: lightcyan;
+}
+#box8{
+  background-color: lightgoldenrodyellow;
+}
+#box9{
+  background-color: lightseagreen;
+}
+#box10{
+  background-color: lightsteelblue;
 }

@@ -1,0 +1,29 @@
+.container {
+  background-color: papayawhip;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  color: palevioletred;
+  text-decoration: none;
+  background-color:violet;
+}
+li {
+  list-style-type: none;
+  display: inline;
+
+}
+
+.outer {
+  background-color: lightblue;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  background-color: lightcoral;
+  width: 100px;
+  height: 100px;
+}
