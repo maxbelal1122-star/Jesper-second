@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 70px;
+  background-color: gray;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+  display: flex;
+  gap: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+section{
+   display: flex;
+   justify-content: space-between;
+  
+}
+.intro{
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 350px;
+}
+.projects{
+ display: flex;
+ margin-top: 20px;
+ margin-right: 20px;
+ gap: 30px;
+ 
+}
+h1{
+  margin: 0;
+}
