@@ -1,3 +1,14 @@
-* {
-  font-family: "Times New Roman", Times, serif;
+h1{
+  color: skyblue;
+}
+p{
+  color:darkblue;
+}
+button{
+  color: chartreuse;
+  background-color: #0000ff;
+}
+body{
+
+  background-color: #ffffff;
 }
