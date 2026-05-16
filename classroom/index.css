@@ -12,3 +12,27 @@ body{
 
   background-color: #ffffff;
 }
+.road-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.road-item p {
+  width: 180px;        /* fixed width so all bars align */
+  margin: 0;
+}
+
+.bar {
+  background: #ddd;
+  border-radius: 10px;
+  height: 10px;
+  width: 300px;        /* total bar length */
+}
+
+.fill {
+  background: #007bff;
+  height: 10px;
+  border-radius: 10px;
+}
